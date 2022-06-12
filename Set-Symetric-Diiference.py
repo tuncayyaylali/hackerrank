@@ -1,0 +1,5 @@
+number_of_students_1 = int(input())
+students_1 = set(input().split())
+number_of_students_2 = int(input())
+students_2 = set(input().split())
+print(len(students_1.symmetric_difference(students_2)))
